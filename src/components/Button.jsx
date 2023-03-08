@@ -7,7 +7,7 @@ function Button (props) {
         }
     const navigate = useNavigate()
     return (
-        <button className="btn" data-bs-dismis={modal} type={props.type} onClick={() => navigate(props.link)}>
+        <button className="btn" data-bs-dismiss={modal} type={props.type} onClick={() => navigate(props.link)}>
             {props.name}
         </button>
     )
