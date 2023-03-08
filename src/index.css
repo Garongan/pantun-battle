@@ -1,13 +1,143 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(circle, #22C4C7, #178D8F);
+  font-family: GothamBook !important;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* font */
+@font-face {
+  font-family: GothamBook;
+  src: url("../public/font/GOTHAM/GothamBook.ttf");
+}
+@font-face {
+  font-family: KnockoutSumo;
+  src: url("../public/font/KNOCKOUT/Knockout-HTF54-Sumo.otf");
+}
+@media (max-width: 576px) {
+  .container {
+      padding-left: calc(var(--bs-gutter-x) * 1) !important;
+      padding-right: calc(var(--bs-gutter-x) * 1) !important;
+  }
+  .container-buat-pantun{
+      position: fixed;
+      top: 0;
+      background-image: url("../public/img/BATTLE-PANTUN-IGS.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh !important;
+  }
+  .subtitle-style {
+      color: #FDFEFF;
+      font-size: 3.15vw;
+      font-weight: 500;
+  }
+  .title-style {
+      display: table-cell;
+      vertical-align: middle;
+  }
+  .btn {
+      background-color: #04ADC0 !important;
+      text-decoration: none;
+      color: #FDFEFF !important;
+      width: 8rem;
+      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4)!important;
+  }
+  .carousel-indicators {
+      background-color: rgba(38, 71, 88, 0.6);
+      padding: 0.25rem !important;
+      margin-left: 0 !important;
+      margin-bottom: 0 !important;
+      margin-right: 0 !important;
+  }
+  .carousel-item img {
+      border-radius: 0.5rem;
+      height: 250px;
+      object-fit: cover;
+  }
+  .head-img {
+      width: 100vw;
+      height: 250px;
+      object-fit: fill;
+      border-bottom-left-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+  }
+  .banner-2 {
+      height: 160px;
+      object-fit: cover;
+  }
+  .title-personal-data {
+      color: #3A3D3C;
+      font-weight: 300;
+  }
+  .title-personal-data span {
+      font-weight: 600;
+  }
+  .form-personal-data {
+      padding-left: calc(var(--bs-gutter-x) * 1.5) !important;
+      padding-right: calc(var(--bs-gutter-x) * 1.5) !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+  }
+  .form-personal-data-input label{
+      font-weight: 300;
+  }
+  .form-personal-data-input input {
+      background-color: #D8E6F3;
+  }
+  .isi-pantun{
+      position: absolute;
+      top: 36%;
+  }
+  .isi-pantun .btn{
+      margin-top: 20vh;
+  }
+  .isi-pantun textarea{
+      background: transparent;
+      width: 85vw;
+      border: none;
+      overflow: auto;
+      outline: none;
+      box-shadow: none;
+      resize: none;
+      text-decoration-color: #2D535E;
+      font-size: 3vh;
+      text-align: center;
+      line-break: auto;
+      line-height: 6.575vh;
+  }
+  .ucapan-thanks p {
+      color: #FDFEFF;
+      margin-left: 0;
+      font-weight: 300;
+      font-size: small;
+      text-align: center;
+  }
+  .ucapan-thanks p span {
+      font-weight: bold;
+      text-align: center;
+  }
+  .modal-content {
+      background-color: #FDFEFF;
+  }
+  .modal-content p{
+      color: #04ADC0;
+  }
+  .sharePic {
+      height: 50vh;
+      margin-top: 10vh;
+      margin-bottom: 20vh;
+  }
+  .container-sharePic {
+      background-color: #FDFEFF;
+      height: 100vh;
+  }
+  .container-sharePic a {
+      text-decoration: none;
+      color: #000;
+  }
+  .container-sharePic .col {
+      text-align: center;
+  }
+  label {
+    display: block;
+  }
 }
