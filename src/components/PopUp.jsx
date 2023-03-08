@@ -6,7 +6,7 @@ function PopUp () {
     const navigate = useNavigate()
     
     return (
-        <div className="modal fade" id="tqModal" aria-labelledby="tqModalLabel" aria-hidden="true">
+        <div className="modal fade" id="tqModal" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="tqModalLabel" aria-hidden="true">
             <div className="modal-dialog modal-dialog-centered">
                 <div className="modal-content">
                     <div className="modal-header">
