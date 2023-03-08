@@ -1,4 +1,5 @@
 import Button from "./Button"
+import { Link } from "react-router-dom"
 
 function FormPersonalData () {
     return (
@@ -12,7 +13,7 @@ function FormPersonalData () {
                 </div>
                 {/* <!-- icon home --> */}
                 <div className="col d-flex justify-content-end">
-                    <a href="/" ><iconify-icon icon="mdi:home-circle" width="50" style={{ color: '#56777E' }} ></iconify-icon></a>
+                    <Link to="/"><iconify-icon icon="mdi:home-circle" width="50" style={{ color: '#56777E' }} ></iconify-icon></Link>
                 </div>
             </div>
             {/* isi form */}

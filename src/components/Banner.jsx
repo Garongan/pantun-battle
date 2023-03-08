@@ -1,7 +1,7 @@
 function Banner () {
     return (
             <div class="col mt-4">
-                <img src="img/banner.jpg" className="d-block banner-2 w-100 mx-auto rounded" alt="banner" />
+                <img src={process.env.PUBLIC_URL + '/img/LOGO PANTUN BATTLE.png'} className="d-block banner w-100 mx-auto rounded" alt="banner" />
             </div>
     )
 }

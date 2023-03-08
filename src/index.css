@@ -1,5 +1,4 @@
 body {
-  background-image: radial-gradient(circle, #22C4C7, #178D8F);
   font-family: GothamBook !important;
 }
 /* font */
@@ -12,6 +11,12 @@ body {
   src: url("../public/font/KNOCKOUT/Knockout-HTF54-Sumo.otf");
 }
 @media (max-width: 576px) {
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
   .container {
       padding-left: calc(var(--bs-gutter-x) * 1) !important;
       padding-right: calc(var(--bs-gutter-x) * 1) !important;
@@ -19,7 +24,7 @@ body {
   .container-buat-pantun{
       position: fixed;
       top: 0;
-      background-image: url("../public/img/BATTLE-PANTUN-IGS.jpg");
+      background-image: url("../public/img/BATTLE\ PANTUN\ TEMPLATE.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -41,27 +46,14 @@ body {
       width: 8rem;
       box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4)!important;
   }
-  .carousel-indicators {
-      background-color: rgba(38, 71, 88, 0.6);
-      padding: 0.25rem !important;
-      margin-left: 0 !important;
-      margin-bottom: 0 !important;
-      margin-right: 0 !important;
-  }
-  .carousel-item img {
-      border-radius: 0.5rem;
-      height: 250px;
-      object-fit: cover;
-  }
   .head-img {
       width: 100vw;
-      height: 250px;
       object-fit: fill;
       border-bottom-left-radius: 0.5rem;
       border-bottom-right-radius: 0.5rem;
   }
-  .banner-2 {
-      height: 160px;
+  .banner {
+      height: fit-content;
       object-fit: cover;
   }
   .title-personal-data {
@@ -85,14 +77,14 @@ body {
   }
   .isi-pantun{
       position: absolute;
-      top: 36%;
+      top: 33%;
   }
   .isi-pantun .btn{
       margin-top: 20vh;
   }
   .isi-pantun textarea{
       background: transparent;
-      width: 85vw;
+      width: 88vw;
       border: none;
       overflow: auto;
       outline: none;
@@ -102,7 +94,7 @@ body {
       font-size: 3vh;
       text-align: center;
       line-break: auto;
-      line-height: 6.575vh;
+      line-height: 6vh;
   }
   .ucapan-thanks p {
       color: #FDFEFF;
