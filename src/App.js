@@ -10,10 +10,10 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path='/pantun-battle/' element={<Home />} />
-        <Route path='/pantun-battle/MyPersonalData' element={<MyPersonalData />} />
-        <Route path='/pantun-battle/BuatPantun' element={<BuatPantun />} />
-        <Route path='/pantun-battle/ShareIG' element={<ShareIG />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/MyPersonalData' element={<MyPersonalData />} />
+        <Route path='/BuatPantun' element={<BuatPantun />} />
+        <Route path='/ShareIG' element={<ShareIG />} />
       </Routes>
     </Router>
   );
