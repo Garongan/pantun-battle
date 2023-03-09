@@ -10,6 +10,59 @@ body {
   font-family: KnockoutSumo;
   src: url("../public/font/KNOCKOUT/Knockout-HTF54-Sumo.otf");
 }
+.redirect {
+    color: #000;
+}
+.subtitle-style {
+    color: #FDFEFF;
+    font-size: 3.15vw;
+    font-weight: 500;
+}
+.title-style {
+    display: table-cell;
+    vertical-align: middle;
+}
+.btn {
+    background-color: #04ADC0 !important;
+    text-decoration: none;
+    color: #FDFEFF !important;
+    width: 8rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4)!important;
+}
+.title-personal-data {
+    color: #3A3D3C;
+    font-weight: 300;
+}
+.title-personal-data span {
+    font-weight: 600;
+}
+.ucapan-thanks p {
+    color: #FDFEFF;
+    margin-left: 0;
+    font-weight: 300;
+    font-size: small;
+    text-align: center;
+}
+.ucapan-thanks p span {
+    font-weight: bold;
+    text-align: center;
+}
+.modal-content {
+    background-color: #FDFEFF;
+}
+.modal-content p{
+    color: #04ADC0;
+}
+.container-sharePic a {
+    text-decoration: none;
+    color: #000;
+}
+.container-sharePic .col {
+    text-align: center;
+}
+label {
+  display: block;
+}
 @media (max-width: 576px) {
     .center {
         display: flex;
@@ -30,34 +83,11 @@ body {
       background-position: center;
       height: 100vh !important;
   }
-  .subtitle-style {
-      color: #FDFEFF;
-      font-size: 3.15vw;
-      font-weight: 500;
-  }
-  .title-style {
-      display: table-cell;
-      vertical-align: middle;
-  }
-  .btn {
-      background-color: #04ADC0 !important;
-      text-decoration: none;
-      color: #FDFEFF !important;
-      width: 8rem;
-      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4)!important;
-  }
   .head-img {
       width: 100vw;
       object-fit: fill;
       border-bottom-left-radius: 0.5rem;
       border-bottom-right-radius: 0.5rem;
-  }
-  .title-personal-data {
-      color: #3A3D3C;
-      font-weight: 300;
-  }
-  .title-personal-data span {
-      font-weight: 600;
   }
   .form-personal-data {
       padding-left: calc(var(--bs-gutter-x) * 1.5) !important;
@@ -97,23 +127,7 @@ body {
       line-break: auto;
       line-height: 6vh;
   }
-  .ucapan-thanks p {
-      color: #FDFEFF;
-      margin-left: 0;
-      font-weight: 300;
-      font-size: small;
-      text-align: center;
-  }
-  .ucapan-thanks p span {
-      font-weight: bold;
-      text-align: center;
-  }
-  .modal-content {
-      background-color: #FDFEFF;
-  }
-  .modal-content p{
-      color: #04ADC0;
-  }
+
   .sharePic {
       height: 50vh;
       margin-top: 10vh;
@@ -122,15 +136,5 @@ body {
   .container-sharePic {
       background-color: #FDFEFF;
       height: 100vh;
-  }
-  .container-sharePic a {
-      text-decoration: none;
-      color: #000;
-  }
-  .container-sharePic .col {
-      text-align: center;
-  }
-  label {
-    display: block;
   }
 }

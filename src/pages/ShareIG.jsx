@@ -10,7 +10,7 @@ const ShareIG = () => {
             <center><img src="img/fake-isi.png" alt="" className="sharePic" /></center>
             <div className="row">
                 <div className="col">
-                    <Link to="/" style={{ textDecoration: 'none' }}>
+                    <Link to="/" style={{ textDecoration: 'none' }} >
                         <Icon icon="skill-icons:instagram" width="50" />
                         Direct
                     </Link>
