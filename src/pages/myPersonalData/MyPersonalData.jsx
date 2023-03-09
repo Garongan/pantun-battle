@@ -1,5 +1,5 @@
-import HeadImg from '../components/HeadImg'
-import FormPersonalData from '../components/FormPersonalData'
+import HeadImg from '../../components/myPersonalData/HeadImg'
+import FormPersonalData from '../../components/myPersonalData/FormPersonalData'
 
 const MyPersonalData = () => {
     document.body.style.backgroundImage = "none"

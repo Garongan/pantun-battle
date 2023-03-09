@@ -1,10 +1,10 @@
 import './App.css';
-import {BrowserRouter as Router, Navigate, Routes, Route } from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import Home from './pages/Home';
-import MyPersonalData from './pages/MyPersonalData';
-import BuatPantun from './pages/BuatPantun';
-import ShareIG from './pages/ShareIG';
+import Home from './pages/home/Home';
+import MyPersonalData from './pages/myPersonalData/MyPersonalData';
+import BuatPantun from './pages/buatPantun/BuatPantun';
+import ShareIG from './pages/shareIG/ShareIG';
 
 function App() {
   return (

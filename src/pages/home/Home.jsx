@@ -1,6 +1,6 @@
-import HomeTitle from "../components/HomeTitle"
-import Banner from "../components/Banner"
-import Button from "../components/Button"
+import HomeTitle from "../../components/home/HomeTitle"
+import Banner from "../../components/home/Banner"
+import Button from "../../components/Button"
 
 const Home = () => {
     document.body.style.backgroundImage = "radial-gradient(circle, #22C4C7, #178D8F)"

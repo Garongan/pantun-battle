@@ -7,7 +7,7 @@ const ShareIG = () => {
     
     return (
         <div className="container container-sharePic">
-            <center><img src="img/fake-isi.png" alt="" className="sharePic" /></center>
+            <center><img src="assets/img/fake-isi.png" alt="" className="sharePic" /></center>
             <div className="row">
                 <div className="col">
                     <Link to="/" style={{ textDecoration: 'none' }} >

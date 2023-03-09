@@ -1,5 +1,5 @@
-import IsiPantun from "../components/IsiPantun";
-import PopUp from "../components/PopUp";
+import IsiPantun from "../../components/buatPantun/IsiPantun";
+import PopUp from "../../components/buatPantun/PopUp";
 
 const BuatPantun = () => {
     return (

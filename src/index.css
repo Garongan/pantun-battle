@@ -4,11 +4,11 @@ body {
 /* font */
 @font-face {
   font-family: GothamBook;
-  src: url("../public/font/GOTHAM/GothamBook.ttf");
+  src: url("../public/assets/font/GOTHAM/GothamBook.ttf");
 }
 @font-face {
   font-family: KnockoutSumo;
-  src: url("../public/font/KNOCKOUT/Knockout-HTF54-Sumo.otf");
+  src: url("../public/assets/font/KNOCKOUT/Knockout-HTF54-Sumo.otf");
 }
 .redirect {
     color: #000;
@@ -77,7 +77,7 @@ label {
   .container-buat-pantun{
       position: fixed;
       top: 0;
-      background-image: url("../public/img/BATTLE\ PANTUN\ TEMPLATE.jpg");
+      background-image: url("../public/assets/img/BATTLE\ PANTUN\ TEMPLATE.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
