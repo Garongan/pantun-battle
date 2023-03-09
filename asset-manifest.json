@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/pantun-battle/static/css/main.e0ccc62e.css",
-    "main.js": "/pantun-battle/static/js/main.85990484.js",
+    "main.js": "/pantun-battle/static/js/main.e0d15b66.js",
     "static/js/787.2fa0732d.chunk.js": "/pantun-battle/static/js/787.2fa0732d.chunk.js",
     "static/media/BATTLE PANTUN TEMPLATE.jpg": "/pantun-battle/static/media/BATTLE PANTUN TEMPLATE.5224888c13825207b208.jpg",
     "static/media/GothamBook.ttf": "/pantun-battle/static/media/GothamBook.58fb9151c57e59668f17.ttf",
     "static/media/Knockout-HTF54-Sumo.otf": "/pantun-battle/static/media/Knockout-HTF54-Sumo.9f39587fb446e54087a6.otf",
     "index.html": "/pantun-battle/index.html",
     "main.e0ccc62e.css.map": "/pantun-battle/static/css/main.e0ccc62e.css.map",
-    "main.85990484.js.map": "/pantun-battle/static/js/main.85990484.js.map",
+    "main.e0d15b66.js.map": "/pantun-battle/static/js/main.e0d15b66.js.map",
     "787.2fa0732d.chunk.js.map": "/pantun-battle/static/js/787.2fa0732d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0ccc62e.css",
-    "static/js/main.85990484.js"
+    "static/js/main.e0d15b66.js"
   ]
 }
