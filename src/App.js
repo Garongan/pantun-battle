@@ -10,11 +10,10 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path={process.env.PUBLIC_URL + '/'} element={<Home />} />
-        <Route path={process.env.PUBLIC_URL + '/MyPersonalData'} element={<MyPersonalData />} />
-        <Route path={process.env.PUBLIC_URL + '/BuatPantun'} element={<BuatPantun />} />
-        <Route path={process.env.PUBLIC_URL + '/ShareIG'} element={<ShareIG />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/MyPersonalData' element={<MyPersonalData />} />
+        <Route path='/BuatPantun' element={<BuatPantun />} />
+        <Route path='/ShareIG' element={<ShareIG />} />
       </Routes>
     </Router>
   );
