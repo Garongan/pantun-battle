@@ -6,13 +6,13 @@ function IsiPantun () {
 
     return (
         <div className="container container-buat-pantun">
-            <form className="isi-pantun">
-                <textarea name="isi-pantun" rows="4" spellCheck="false" autoFocus placeholder="Tulis pantun-mu disini"></textarea>
+            <form>
+                <div className="isi-pantun">
+                    <textarea name="isi-pantun" rows="4" spellCheck="false" autoFocus placeholder="Tulis pantun-mu disini"></textarea>
+                </div>
                 {/* button trigger pup up */}
-                <div className="d-flex justify-content-center">
-                    <div className="btn" id="submit-share-button" onClick={hideSubmitBtn} data-bs-toggle="modal" data-bs-target="#tqModal">
-                        SUBMIT
-                    </div>
+                <div className="btn" id="submit-share-button" onClick={hideSubmitBtn} data-bs-toggle="modal" data-bs-target="#tqModal">
+                    SUBMIT
                 </div>
             </form>
         </div>        

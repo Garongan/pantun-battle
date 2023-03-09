@@ -1,5 +1,6 @@
 import Button from "./Button"
 import { Link } from "react-router-dom"
+import { Icon } from '@iconify/react';
 
 function FormPersonalData () {
     return (
@@ -13,7 +14,9 @@ function FormPersonalData () {
                 </div>
                 {/* <!-- icon home --> */}
                 <div className="col d-flex justify-content-end">
-                    <Link to="/"><iconify-icon icon="mdi:home-circle" width="50" style={{ color: '#56777E' }} ></iconify-icon></Link>
+                    <Link to="/">
+                        <Icon icon="mdi:home-circle" width="50" style={{ color: '#56777E' }} />
+                    </Link>
                 </div>
             </div>
             {/* isi form */}
@@ -23,13 +26,13 @@ function FormPersonalData () {
                             <div className="mb-3 mt-1">
                                 <label htmlFor="nama">
                                     Nama
-                                    <input type="text" className="form-control" name="form-nama" id="form-nama" placeholder="Name..." />
+                                    <input type="text" className="form-control" name="form-nama" id="form-nama" placeholder="Name..." autoFocus />
                                 </label>
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="email">
-                                    Nama
-                                    <input type="text" className="form-control" name="form-nama" id="form-nama" placeholder="Email..." />
+                                    Email
+                                    <input type="text" className="form-control" name="form-email" id="form-email" placeholder="Email..." />
                                 </label>
                             </div>
                             <div className="mb-3">

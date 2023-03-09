@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Icon } from '@iconify/react'
 
 const ShareIG = () => {
     document.body.style.backgroundImage = "none"
@@ -10,25 +11,25 @@ const ShareIG = () => {
             <div className="row">
                 <div className="col">
                     <Link to="/" style={{ textDecoration: 'none' }}>
-                        <iconify-icon icon="skill-icons:instagram" width="50"></iconify-icon>
+                        <Icon icon="skill-icons:instagram" width="50" />
                         Direct
                     </Link>
                 </div>
                 <div className="col">
                     <Link to="/" style={{ textDecoration: 'none' }}>
-                        <iconify-icon icon="skill-icons:instagram" width="50"></iconify-icon>
+                        <Icon icon="skill-icons:instagram" width="50" />
                         Feed
                     </Link>
                 </div>
                 <div className="col">
                     <Link to="/" style={{ textDecoration: 'none' }}>
-                        <iconify-icon icon="skill-icons:instagram" width="50"></iconify-icon>
+                        <Icon icon="skill-icons:instagram" width="50" />
                         Reels
                     </Link>
                 </div>
                 <div className="col">
                     <Link to="/" style={{ textDecoration: 'none' }}>
-                        <iconify-icon icon="skill-icons:instagram" width="50"></iconify-icon>
+                        <Icon icon="skill-icons:instagram" width="50" />
                         Stories
                     </Link>
                 </div>

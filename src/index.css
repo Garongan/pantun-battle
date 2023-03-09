@@ -77,16 +77,21 @@ body {
   }
   .isi-pantun{
       position: absolute;
-      top: 33%;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
   }
-  .isi-pantun .btn{
-      margin-top: 20vh;
+  #submit-share-button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-top: 5vh;
+    transform: translate(-50%, -50%);
   }
   .isi-pantun textarea{
       background: transparent;
-      width: 88vw;
       border: none;
-      overflow: auto;
+      overflow: hidden;
       outline: none;
       box-shadow: none;
       resize: none;
