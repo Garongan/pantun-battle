@@ -53,8 +53,7 @@ body {
       border-bottom-right-radius: 0.5rem;
   }
   .banner {
-      height: fit-content;
-      object-fit: cover;
+      object-fit: cover !important;
   }
   .title-personal-data {
       color: #3A3D3C;
